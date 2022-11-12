@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#86ACA7"
+    android:layout_marginTop="18dp"
+    android:layout_margin="14dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/text_view_title_market"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="Which are the Table Tennis Betting Markets to Opt for?"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_view_definition_market"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="One of the most important considerations if you are just starting out on table tennis betting are the markets associated with the sport. While the basic concept of betting remains the same across most sports, the table tennis markets have their unique selling points. Below we look at all the table tennis betting markets available to the punter. Accordingly you can choose from between them based on where your strengths lie."
+        android:padding="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_title_market">
+    </TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
